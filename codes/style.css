@@ -1,0 +1,302 @@
+@font-face {
+  font-family: "Oswald";
+  src: url("/Polices/Oswald-Medium.ttf") format("ttf"),
+}
+
+body{
+  font-family: "Oswald", sans-serif;
+}
+
+.header {
+  background-image: url("/Images/background2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 40.5rem;
+  max-height: 100%;
+  text-align: center;
+  max-width: 120rem;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1.heading {
+  text-shadow: 0.1em;
+  font-weight: 1000;
+  font-size: 3rem;
+  color: #ffffff;
+  padding-top: 8rem;
+  text-shadow: #3c3a38 0.1em 0.1em 0.1em;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+}
+
+.nav {
+  display: flex;
+  padding-top: 1px;
+  padding-bottom: 5px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+}
+
+.navItems {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.navItem {
+  padding: 0 20px;
+  color: rgb(12, 12, 12);
+}
+
+.logoNav {
+  width: 4.5rem;
+  max-width: 100%;
+  margin-left: 10px;
+}
+
+.btnC {
+  padding: 0.2rem 1rem;
+  font-weight: 800;
+  font-size: 0.9rem;
+  margin-right: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #EBA543;
+  border: none;
+  background-color: white;
+}
+
+.btnC:hover {
+  background-color: #5ebf5e;
+  border-color: #5ebf5e;
+  color: #FFF;
+}
+
+.heading {
+  text-transform: uppercase;
+  letter-spacing: 0.6rem;
+}
+
+p.heading {
+  padding: 0;
+  color: #f3f313;
+  font-weight: 700;
+  text-shadow: #3c3a38 0.1em 0.1em 0.1em;
+  line-height: 25px;
+}
+
+.btnM {
+  padding: 0.9rem 1.5rem;
+  font-weight: 900;
+  font-size: 0.9rem;
+  margin-top: 40px;
+  margin-right: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  transition: all 0.4s;
+  color: #ffffff;
+  background-color: #EBA543;
+  border-color: #EBA543;
+}
+
+.btnM:hover {
+  background-color: #5ebf5e;
+  border-color: #5ebf5e;
+  color: #FFF;
+}
+
+/*Titre section générateur de repas*/
+h2 {
+  text-align: center;
+  color: #EBA543;
+  letter-spacing: 0.1em;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+#meal {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+}
+
+.meal-item {
+  text-align:center;
+  padding-bottom:30px;
+}
+
+/*Form*/
+.form {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  background-image: url("/Images/pexels-ray-piedra-1565982.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-height: 100%;
+}
+
+.contact {
+  width: 600px;
+  border: 1px solid;
+  padding: 0 50px 0 50px;
+  background: white;
+}
+
+.contact > h1 {
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #EBA543;
+  letter-spacing: 0.1em;
+}
+
+.contact > p {
+  font-weight: 300;
+}
+
+form div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 83px;
+  margin-top: 25px;
+}
+
+form div > label {
+  margin-bottom: 7px;
+  font-weight: 600;
+}
+
+form div > input, form div > select, form div > textarea {
+  background: #f0ebe4;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.25);
+  font-family: "Oswald", sans-serif;
+}
+
+form div > input, form div > select {
+  height: 50px;
+  padding-left: 10px;;
+}
+
+form div > textarea {
+  height: 195px;
+  padding-top: 8px;
+  padding-left:5px;
+}
+
+form div:last-child {
+  align-items:center;
+  margin-top: 20px;
+}
+
+form button {
+  width: 250px;
+  max-width: 200px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 20px;
+  background: #EBA543;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+  color: white; 
+}
+
+form button:hover {
+  background-color: #5ebf5e;
+  border-color: #5ebf5e;
+  color: #FFF;
+}
+
+/*Footer*/
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3D5164;
+  color: white;
+  padding-right: 20px;
+  font-family: "Oswald", sans-serif;
+}
+
+.logoFooter {
+  width: 5.5rem;
+  max-width: 100%;
+  margin-left: 10px;
+}
+
+.icons {
+  height: 30px;
+  width: 30px;
+  padding-top: 8px;
+}
+
+#link { 
+  color: #65ad65; 
+} 
+
+#link:hover { 
+  color: #EBA543; } 
+
+
+
+/* Media queries */
+@media screen and (min-width: 600px) {
+ 
+}
+
+/*Phone*/
+@media screen and (max-width: 500px) {
+  h1.heading {
+    font-size: 1.8rem;
+    padding-top: 70px;
+  }
+  p.heading {
+    font-size:0.8rem;
+    padding-right:10px;
+    padding-left:10px;
+    letter-spacing: 0.2rem;
+  }
+.header {
+  background-image: url("/Images/background2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 35rem;
+}
+.btnM {
+  margin-top:15px;
+}
+}
+
+
+/*Tablet*/
+@media screen and (max-width: 1024px) {
+ 
+}
+
+/*Desktop*/
+@media screen and (min-width: 1024px) {
+  
+}
+
+
+
+
+
+
+
+    

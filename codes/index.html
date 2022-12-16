@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Smile Food - Meals Generator" />
+    <link rel="icon" href="/Logos/smile_food_logo.png" />
+  <title>SMILE FOOD</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <nav class="nav">
+    <img src="/Logos/smile food_logo_orangeetnoir.png" alt="logo Smile Food" class="logoNav">
+    <div class="menu">
+      <ul class="navItems ">
+        <li class="navItem">Home</li>
+        <li class="navItem">Weekly menu</li>
+        <li class="navItem">Contact us</li>
+      </ul>
+      <button class="btnC">My account</button>
+  </nav>
+
+  <div class="header">
+    <h1 class="heading">Simple, healthy and varied meals<br>for the whole family</h1>
+    <p class="heading">Let us do it, we propose your weekly menu, <br>easy to realize and good for the health</p>
+    <button class="btnM">What's for dinner? 🍕</button>
+  </div>
+
+<!--Recettes conteneur -->
+<div id="daymeal"></div>
+<div class="weeklyMenu">
+
+
+  <h2>Weekly menu</h2>
+  <div id="meal"></div>
+
+
+  <!-- Partie formulaire -->
+  <section class="form">
+  <div class="contact">
+    <h1>Contact us</h1>
+    <p>Do you have a suggestion, a new innovative recipe or do you want to send us a message of love? Do not hesitate to use this form to contact us!</p>
+    <form>
+      <div>
+        <label for="nom">Name</label>
+        <input type="text" id="name" name="name" placeholder="Clint Eastwood" required>
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="myaddress@email.com" required>
+      </div>
+      <div>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Hello, I want to share a new recipe...." required></textarea>
+      </div>
+      <div>
+        <button type="submit">Sent</button>
+      </div>
+    </form>
+  </div>
+</section>
+  </body>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer">
+      <img src="/Logos/smile_food_logo.png" alt="logo Smile Food" class="logoFooter">
+      <p class="copyright">&copy; MB with <a href="https://www.themealdb.com/api.php" id="link">The MealDB API</a></p>
+      <div class="iconsFooter">
+        <img src="/Icons/RS_orange/Pinterest.png" alt="Pinterest logo" class="icons">
+        <img src="/Icons/RS_orange/Instagram.png" alt="Instagram logo" class="icons">
+        <img src="/Icons/RS_orange/Youtube.png" alt="YouTube logo" class="icons">
+      </div>
+  </footer>
+  
+  </html>
